@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import NavBar from '../common/navbar';
+
 import './form.css';
 function Register() {
   const [name,setUserName] = useState('');
@@ -9,10 +9,9 @@ function Register() {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
-  
+  //<NavBar />
   return (
     <div>
-        <NavBar />
         <br></br>
         <br></br>
         <div className='form-user-sesion'>

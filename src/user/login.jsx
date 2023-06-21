@@ -1,37 +1,12 @@
 import { useState } from 'react';
 import NavBar from '../common/NavBar';
-// import { SessionContext } from './usercontext';
+
 import './form.css';
 function Login() {
 
-  //const [ setIsLoggedIn] = useContext(SessionContext);
   const [mail, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  /*
-  //const [error, setError] = useState('');
-  //const [error, setError] = useState('');
-  /*const handleLogin = async () => {
-    try {
-      const response = await fetch('/api/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ mail, password })
-      });*/
 
-      //const data = await response.json();
-
-      //if (response.ok) {
-        // Inicio de sesión exitoso
-        //setIsLoggedIn(true);
-      //} else {
-        // Inicio de sesión fallido
-        //setError(data.message);
-      //}
-    /*} catch (error) {
-      //console.error('Error al iniciar sesión:', error);
-      //setError('Ocurrió un error al iniciar sesión');
-    }*/
-  //};
   return (
     <div>
         <NavBar />
